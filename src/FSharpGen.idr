@@ -3,6 +3,7 @@ module FSharpGen
 import Core.Context
 import Compiler.Common
 import Idris.Driver
+import Data.Buffer
 
 compile : Ref Ctxt Defs -> (tmpDir : String) -> (outputDir : String) ->
         ClosedTerm -> (outfile : String) -> Core (Maybe String)
