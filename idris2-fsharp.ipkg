@@ -3,5 +3,6 @@ package iris2fsharp
 depends = idris2, contrib, network
 
 sourcedir = "src"
+outputdir = "FSNetCore"
 main = FSharpGen
 executable = idris2-fsharp

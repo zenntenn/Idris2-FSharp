@@ -6,8 +6,7 @@ import Idris.Driver
 import Data.Buffer
 
 compile : Ref Ctxt Defs -> (tmpDir : String) -> (outputDir : String) ->
-        ClosedTerm -> (outfile : String) -> Core (Maybe String)
-compile defs tmpDir outputDir term outfile = ?compile_rhs
+        ClosedTerm -> (outfile : String) ->  do ?compile_rhs
 
 execute : Ref Ctxt Defs -> (tmpDir : String) -> ClosedTerm -> Core ()
 execute defs tmpDir term = ?execute_rhs
