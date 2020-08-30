@@ -1,0 +1,1 @@
+(parameterize ([optimize-level 3] [compile-file-message #f]) (compile-program "C:\\msys64\\home\\joshua.hillerup\\Idris2-FSharp\\FSNetCore\\idris2-fsharp_app\\idris2-fsharp.ss"))

@@ -1,8 +1,8 @@
 package iris2fsharp
 
-depends = idris2, contrib, network
+depends = idris2, base contrib, network
 
 sourcedir = "src"
 outputdir = "FSNetCore"
-main = FSharpGen
+main = FSharp.FSharp
 executable = idris2-fsharp
